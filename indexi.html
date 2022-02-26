@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cars Dealership</title>
+    <!--bootstrap css  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- font-awsome -->
+    <script src="./js/all.js"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+
+     <!-- carousel -->
+    <!-- BEZ OVOG RADI ALI NESKLADNO -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- BEZ OVOG NE RADI NIKAKO -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <!-- BEZ OVOG NE PREBACUJE SAMO -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <!-- IMPORTANT NE RADI BEZ OVOG -->
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+  </head>
+
+  <body>
+    <!-- preloader -->
+    <div class="preloader d-flex justify-content-center align-items-center">
+    <img src="img/preloader.gif" alt="preloader">
+    </div>
+
+    <!-- end of preloader -->
+
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg px-3" id="navBar">
+      <a href="#" class="navbar-brand">
+        <i class="fas fa-cog fa-3x text-black"></i>
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#myNav"
+      >
+        <span class="navbar-icon">
+          <i class="fas fa-bars"></i>
+        </span>
+      </button>
+
+      <!-- navbar links -->
+      <div class="collapse navbar-collapse" id="myNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a href="#navBar" class="nav-link">home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#inventory" class="nav-link">inventory</a>
+          </li>
+          <li class="nav-item">
+            <a href="#featured" class="nav-link">featured</a>
+          </li>
+        </ul>
+        <!-- social icons -->
+        <div class="nav-icons d-none d-lg-block">
+          <a href="#" class="nav-icon">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="#" class="nav-icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="nav-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+
+    <!-- header -->
+    <header class="header" id="header">
+      <div class="container-fluid">
+        <div class="row height-max align-items-center">
+          <div class="col col-md-9 ml-auto text-right pr-5">
+            <h5 class="title-heading d-inline-block p-2 text-uppercase">
+              the all new
+            </h5>
+            <br />
+            <h2 class="text-uppercase d-inline my-2 title">
+              2022 mercedes-benz
+            </h2>
+            <h3 class="text-uppercase">model name</h3>
+            <h6 class="text-capitalize">starts from</h6>
+            <h2>
+              $60,000
+              <a href="" class="title-icon d-inline-block mx-2">
+                <i class="fas fa-play"></i>
+              </a>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- skills section -->
+    <section id="skills" class="skills py-5">
+      <div class="container">
+        <!-- section title -->
+        <div class="row mb-5">
+          <div
+            class="col d-flex flex-wrap text-uppercase justify-content-center"
+          >
+            <h1 class="font-weight-bold align-self-center mx-1">why choose</h1>
+            <h1 class="section-title--special mx-1">car dealer</h1>
+          </div>
+        </div>
+        <!-- end of section title -->
+
+        <div class="row">
+          <!-- single skill -->
+          <div class="col-sm-6 col-lg-3 text-center my-3">
+            <a href="#" class="skills-icon p-2 rounded-circle">
+              <i class="fas fa-car fa-fw"></i>
+            </a>
+            <h6 class="text-uppercase font-weight-bold my-3">all brands</h6>
+            <div class="skills-uderline"></div>
+            <p class="w-75 mx-auto text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+              vitae.
+            </p>
+          </div>
+          <!-- end of single skill -->
+
+          <!-- single skill -->
+          <div class="col-sm-6 col-lg-3 text-center my-3">
+            <a href="#" class="skills-icon p-2 rounded-circle">
+              <i class="fas fa-comments fa-fw"></i>
+            </a>
+            <h6 class="text-uppercase font-weight-bold my-3">free support</h6>
+            <div class="skills-uderline"></div>
+            <p class="w-75 mx-auto text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+              vitae.
+            </p>
+          </div>
+          <!-- end of single skill -->
+
+          <!-- single skill -->
+          <div class="col-sm-6 col-lg-3 text-center my-3">
+            <a href="#" class="skills-icon p-2 rounded-circle">
+              <i class="fas fa-people-carry fa-fw"></i>
+            </a>
+            <h6 class="text-uppercase font-weight-bold my-3">caring</h6>
+            <div class="skills-uderline"></div>
+            <p class="w-75 mx-auto text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+              vitae.
+            </p>
+          </div>
+          <!-- end of single skill -->
+
+          <!-- single skill -->
+          <div class="col-sm-6 col-lg-3 text-center my-3">
+            <a href="#" class="skills-icon p-2 rounded-circle">
+              <i class="fas fa-wallet fa-fw"></i>
+            </a>
+            <h6 class="text-uppercase font-weight-bold my-3">affordable</h6>
+            <div class="skills-uderline"></div>
+            <p class="w-75 mx-auto text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+              vitae.
+            </p>
+          </div>
+          <!-- end of single skill -->
+        </div>
+      </div>
+    </section>
+    <!-- end of skills section -->
+
+    <!-- inventory section -->
+    <section id="inventory" class="inventory py-5">
+      <div class="container">
+        <!-- section title -->
+        <div class="row mb-5">
+          <div
+            class="col d-flex flex-wrap text-uppercase justify-content-center"
+          >
+            <h1 class="font-weight-bold align-self-center mx-1">our</h1>
+            <h1 class="section-title--special mx-1">inventory</h1>
+          </div>
+        </div>
+        <!-- end of section title -->
+
+        <!-- btn -->
+        <div class="row mb-5">
+          <div class="col-10 mx-auto col-md-12 d-flex justify-content-end">
+            <button class="btn btn-outline-secondary text-uppercase mx-1 filter-btn" data-filter="all">
+              all
+            </button>
+            <button class="btn btn-outline-secondary text-uppercase mx-1 filter-btn" data-filter="american">
+              american
+            </button>
+            <button class="btn btn-outline-secondary text-uppercase mx-1 filter-btn" data-filter="german">
+              german
+            </button>
+          </div>
+        </div>
+
+        <!-- cars -->
+        <div class="row inventory-container">
+        
+      </div>
+    </section>
+    <!-- end of inventory section -->
+
+<!-- question section -->
+<section id="question" class="question py-5">
+  <div class="container">
+    <div class="row">
+      <!-- single question first -->
+      <div class="col-10 mx-auto my-2 col-md-6 d-flex justify-content-between question-grey p-4">
+        <!-- first flexbox child -->
+        <a href="#" class="question-icon mr-2">
+          <i class="fas fa-search fa-fw"></i>
+        </a>
+        <!-- second flexbox child -->
+        <div class="question-text w-75">
+          <h4 class="question-title text-capitalize font-weight-bold">
+            are you looking for a car?
+          </h4>
+          <p class="question-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, velit?</p>
+        </div>
+      </div>
+
+      <!-- single question second -->
+      <div class="col-10 mx-auto my-2 col-md-6 d-flex justify-content-between question-yellow p-4">
+        <!-- first flexbox child -->
+       <a href="#" class="question-icon mr-2">
+          <i class="fas fa-dollar-sign fa-fw"></i>
+        </a>
+        <!-- second flexbox child -->
+        <div class="question-text w-75">
+          <h4 class="question-title text-capitalize font-weight-bold">
+            do you want to sell a car?
+          </h4>
+          <p class="question-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, velit?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end of question section -->
+
+<!-- featured section -->
+<section id="featured" class="featured py-5">
+  <div class="container">
+     <!-- section title -->
+        <div class="row mb-5">
+          <div
+            class="col d-flex flex-wrap text-uppercase justify-content-center"
+          >
+            <h1 class="font-weight-bold align-self-center mx-1">featured</h1>
+            <h1 class="section-title--special mx-1">cars</h1>
+          </div>
+        </div>
+        <!-- end of section title -->
+
+        <div class="row">
+          <!-- featured info -->
+          <div class="col-10 mx-auto col-lg-6 featured-info my-3"> 
+           
+          </div>
+
+          <!-- featured img -->
+          <div class="col-10 mx-auto col-lg-6 featured-img align-self-center my-3">
+            <!-- img container -->
+            <div class="img-container">
+              <img src="img/featured.jpeg" alt="" class="img-fluid featured-photo">
+              <a href="#" class="featured-link">
+                <i class="fas fa-search"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+  </div>
+</section>
+<!-- end of featured section -->
+
+<!-- gallery section -->
+<section id="gallery" class="gallery py-5">
+  <div class="container">
+     <!-- section title -->
+        <div class="row mb-5">
+          <div
+            class="col d-flex flex-wrap text-uppercase justify-content-center"
+          >
+            <h1 class="font-weight-bold align-self-center mx-1">our</h1>
+            <h1 class="section-title--special mx-1">gallery</h1>
+          </div>
+        </div>
+        <!-- end of section title -->
+       
+        <div class="row">
+           <!-- first column -->
+          <div class="col-sm-6">
+            <div class="gallery-item">
+              <img src="./img/car-american-1.jpeg" alt="car" class="img-fluid gallery-img" data-toggle="modal" data-target="#modal">
+            </div>
+          </div>
+           <!-- second column -->
+           <div class="col-sm-6 d-flex flex-column justify-content-between">
+             <div class="row">
+               <!-- first item -->
+               <div class="col-sm-6">
+                <div class="gallery-item">
+                  <img src="./img/car-american-2.jpeg" alt="car" class="img-fluid gallery-img" data-toggle="modal" data-target="#modal">
+                </div>
+               </div>
+               <!-- second item -->
+               <div class="col-sm-6">
+                 <div class="gallery-item">
+                   <img src="./img/car-american-3.jpeg" alt="car" class="img-fluid gallery-img" data-toggle="modal" data-target="#modal">
+                 </div>
+               </div>
+             </div>
+
+             <div class="row">
+               <!-- first item -->
+               <div class="col-sm-6">
+                <div class="gallery-item">
+                  <img src="./img/car-german-2.jpeg" alt="car" class="img-fluid gallery-img" data-toggle="modal" data-target="#modal">
+                </div>
+               </div>
+               <!-- second item -->
+               <div class="col-sm-6">
+                 <div class="gallery-item">
+                   <img src="./img/car-german-3.jpeg" alt="car" class="img-fluid gallery-img" data-toggle="modal" data-target="#modal">
+                 </div>
+               </div>
+             </div>
+           </div>
+        </div>
+  </div>
+</section>
+<!-- end of gallery section -->
+
+<!-- contact section -->
+<section id="contact" class="contact py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-8 col-md-6 mx-auto">
+         <form>
+           <div class="form-group">
+             <input type="email" class="form-control contact-input p-3" name="email" id="email" placeholder="enter email">
+           </div>
+           <button type="submit" class="btn btn-outline-secondary btn-block contact-btn">submit</button>
+         </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end of contact section -->
+
+<!-- services section -->
+<div class="container">
+  <!-- section title -->
+        <div class="row my-5">
+          <div
+            class="col d-flex flex-wrap text-uppercase justify-content-center"
+          >
+            <h1 class="font-weight-bold align-self-center mx-1">our</h1>
+            <h1 class="section-title--special mx-1">services</h1>
+          </div>
+        </div>
+        <!-- end of section title -->
+</div>
+<section id="services" class="services py-5 d-flex align-items-center">
+  <!-- video container -->
+  <div class="video-container">
+    <video class="video-item" autoplay loop muted>
+      <source src="./video/videoBcg.mp4" type="video/mp4">Your browser does not support tag
+    </video>
+  </div>
+  <!-- end of video container -->
+  <!-- video overlay -->
+  <div class="video-overlay"></div>
+  <!-- end of video overlay -->
+
+  <!-- service content -->
+  <div class="container py-5">
+    <div class="row my-3">
+      <!-- single col -->
+      <div class="col-8 mx-auto col-lg-6 col-md-4 my-3">
+        <div class="service py-5 pl-4">
+          <span class="service-icon">
+            <i class="fas fa-cogs"></i>
+          </span>
+          <h6 class="text-capitalize service-title">vehicle</h6>
+          <h5 class="text-uppercase font-weight-bold">repair</h5>
+        </div>
+      </div>
+      <!-- end of single col -->
+
+      <!-- single col -->
+      <div class="col-8 mx-auto col-lg-6 col-md-4 my-3">
+        <div class="service py-5 pl-4">
+          <span class="service-icon">
+            <i class="fas fa-car-battery"></i>
+          </span>
+          <h6 class="text-capitalize service-title">baterry</h6>
+          <h5 class="text-uppercase font-weight-bold">replacement</h5>
+        </div>
+      </div>
+      <!-- end of single col -->
+
+      <!-- single col -->
+      <div class="col-8 mx-auto col-lg-6 col-md-4 my-3">
+        <div class="service py-5 pl-4">
+          <span class="service-icon">
+            <i class="fas fa-car-crash"></i>
+          </span>
+          <h6 class="text-capitalize service-title">roadside</h6>
+          <h5 class="text-uppercase font-weight-bold">assistance</h5>
+        </div>
+      </div>
+      <!-- end of single col -->
+    </div>
+  </div>
+  <!-- end of service content -->
+</section>
+<!-- end of services section -->
+
+<!-- quotes -->
+<section id="quotes" class="quotes py-5 my-5">
+ <div class="container">
+     <!-- section title -->
+        <div class="row mb-5">
+          <div
+            class="col d-flex flex-wrap text-uppercase justify-content-center"
+          >
+            <h1 class="font-weight-bold align-self-center mx-1">what they</h1>
+            <h1 class="section-title--special mx-1">say</h1>
+          </div>
+        </div>
+        <!-- end of section title -->
+
+        <div class="row">
+          <!-- single card -->
+          <div class="col-10 col-md-6 col-lg-4 mx-auto my-5">
+            <div class="card">
+              <img src="./img/car-german-5.jpeg" alt="car" class="card-img-top">
+              <!-- card body -->
+              <div class="card-body text-center customer-card-body">
+                <img src="./img/customer-1.jpg" class="rounded-circle img-fluid customer-img" alt="customer img">
+                <div class="card-title">
+                  <h5 class="customer-name text-capitalize">john smith</h5>
+                </div>
+                <h6 class="customer-job text-capitalize">software engineer</h6>
+                <p class="customer-quote text-left mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, iusto.</p>
+                <span class="customer-icon">
+                  <i class="fas fa-quote-left"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- end of single card -->
+          <!-- single card -->
+          <div class="col-10 col-md-6 col-lg-4 mx-auto my-5">
+            <div class="card">
+              <img src="./img/car-german-4.jpeg" alt="car" class="card-img-top">
+              <!-- card body -->
+              <div class="card-body text-center customer-card-body">
+                <img src="./img/customer-2.jpg" class="rounded-circle img-fluid customer-img" alt="customer img">
+                <div class="card-title">
+                  <h5 class="customer-name text-capitalize">eva blame</h5>
+                </div>
+                <h6 class="customer-job text-capitalize">UI/UX designer</h6>
+                <p class="customer-quote text-left mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, iusto.</p>
+                <span class="customer-icon">
+                  <i class="fas fa-quote-left"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- end of single card -->
+          <!-- single card -->
+          <div class="col-10 col-md-6 col-lg-4 mx-auto my-5">
+            <div class="card">
+              <img src="./img/car-american-4.jpeg" alt="car" class="card-img-top">
+              <!-- card body -->
+              <div class="card-body text-center customer-card-body">
+                <img src="./img/customer-3.jpg" class="rounded-circle img-fluid customer-img" alt="customer img">
+                <div class="card-title">
+                  <h5 class="customer-name text-capitalize">peter parker</h5>
+                </div>
+                <h6 class="customer-job text-capitalize">HR manager</h6>
+                <p class="customer-quote text-left mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, iusto.</p>
+                <span class="customer-icon">
+                  <i class="fas fa-quote-left"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- end of single card -->
+        </div>
+ </div>
+</section>
+<!-- end of quotes -->
+
+<!-- carousel -->
+<section id="other" class="other py-5 bg-white">
+  <div class="container">
+       <!-- section title -->
+        <div class="row mb-5">
+          <div
+            class="col d-flex flex-wrap text-uppercase justify-content-center"
+          >
+            <h1 class="font-weight-bold align-self-center mx-1">other</h1>
+            <h1 class="section-title--special mx-1">models</h1>
+          </div>
+        </div>
+        <!-- end of section title -->
+   <div class="row pb-5">
+        <div class="col mx-auto text-center">
+          <div id="example" class="carousel slide" data-ride='carousel'>
+            <!-- indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#example" data-slide-to='0' class="active"></li>
+              <li data-target="#example" data-slide-to='1'></li>
+              <li data-target="#example" data-slide-to='2'></li>
+              <li data-target="#example" data-slide-to='3'></li>
+            </ul>
+            <!-- images -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/carousel-1.jpg" alt="project" class="d-block w-100 carousel-img">
+                <div class="carousel-caption">
+                    <h1 class="display-2 text-uppercase font-weight-bold">bestseller</h1>
+                    <button type="button" class="btn btn-outline-light btn-lg text-uppercase">buy now</button>
+                    <button type="button" class="btn btn-secondary btn-lg text-uppercase">see properties</button>
+              </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/carousel-2.jpg" alt="project" class="d-block w-100 carousel-img">
+              </div>
+              <div class="carousel-item">
+                <img src="img/projects-4.jpeg" alt="project" class="d-block w-100 carousel-img">
+              </div>
+              <div class="carousel-item">
+                <img src="img/projects-5.jpeg" alt="project" class="d-block w-100 carousel-img">
+              </div>
+            </div>
+            <!-- end of images -->
+            <!-- controls -->
+            <a href="#example" class="carousel-control-prev" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#example" class="carousel-control-next" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+
+          </div>
+        </div>
+      </div
+  </div>
+</section>
+<!-- end of carousel -->
+
+
+<!-- footer -->
+<footer class="footer py-5">
+  <div class="footer-icons d-flex justify-content-around">
+    <a href="#" class="footer-icon">
+      <i class="fab fa-facebook"></i>
+    </a>
+    <a href="#" class="footer-icon">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a href="#" class="footer-icon">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="#" class="footer-icon">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="#" class="footer-icon">
+      <i class="fab fa-google-plus"></i>
+    </a>
+  </div>
+</footer>
+<!-- end of footer -->
+
+<!-- modal -->
+  <div class="modal fade" id="modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- modal header -->
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <!-- modal body -->
+        <div class="modal-body">
+          <img src="" alt="car" class="img-fluid gallery-img modal-img" data-toggle="modal" data-target="#modal">
+        </div>
+      
+      </div>
+    </div>
+  </div>
+
+
+
+    <!-- jquery -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
